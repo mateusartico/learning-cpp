@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -22,6 +23,21 @@ int main() {
 	cout << a << endl;
 	cout << b << endl;
 	cout << c << endl;
+	
+	// String
+	string greeting = "Hi!";
+	cout << greeting << endl;
+
+	// Real-life example
+	// Calculate the total purchase value
+	int qtdItems = 40;
+	double itemValue = 9.99;
+	double totalPurchaseValue = qtdItems * itemValue;
+	char currency = '$';
+
+	cout << "Number of items: " << qtdItems << endl;
+	cout << "Cost per item: " << itemValue << endl;
+	cout << "Total: " << currency << totalPurchaseValue << endl;
 
 	return 0;
 }
