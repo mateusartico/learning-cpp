@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(void) {
@@ -30,6 +31,19 @@ int main(void) {
         cout << "Good day." << endl;
     } else {
         cout << "Good evening." << endl;
+    }
+
+    // Ternary operator: a shorthand way to write if-else
+    time = 17;
+    string result = (time < 18) ? "Good day." : "Good evening."; 
+    cout << result << endl;
+    
+    // Real life example: checking a door code using an if-else statement
+    int doorCode = 1234;
+    if (doorCode == 1234) {
+        cout << "The door is now open." << endl;
+    } else {
+        cout << "The door remains closed" << endl;
     }
 
     return 0;
